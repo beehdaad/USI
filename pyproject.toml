@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "university"
+version = "0.1.0"
+description = "Student information form"
+authors = ["beehdaad <behdad.siavoshi1375@gmail.com>"]
+license = "Free"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
