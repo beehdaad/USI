@@ -75,18 +75,11 @@ coverage.xml
 ### PyBuilder ###
 target/
 
-### Django ###
 *.log
 *.pyc
-local_settings.py
-collectstatic/
 settings.ini
 **/migrations/*
 !**/migrations/__init__.py
-media/upload/**
-!media/upload/*
-**/uploads/
-**/upload/
 .dccache
 
 ### Code editor ###
@@ -107,3 +100,4 @@ docs/_build/
 warehouse/tests/querysets/test_A.py
 settings.toml
 RS512.key*
+alembic.ini
