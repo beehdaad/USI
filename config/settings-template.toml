@@ -1,0 +1,15 @@
+[log]
+LOG_DIRS = [
+    ['logs'],
+    ['logs', 'auth'],
+    ['logs', 'core'],
+]
+
+[database]
+ENGINE = "ENGINE_NAME"
+DRIVER = "DRIVER_NAME"
+NAME = "DB_NAME"
+USER = "USER_NAME"
+PASSWORD = "LARGE_PASSWORD"
+HOST = "localhost"
+PORT = "PORT"
