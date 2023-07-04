@@ -50,4 +50,4 @@ class StudentModel(db.Base):
     date_of_registration = Column(Date, nullable=False)
     graduation_date = Column(Date)
     address = Column(Text, nullable=False)
-    phone_number = Column(Integer, nullable=False)
+    phone_number = Column(String, nullable=False)
