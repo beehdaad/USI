@@ -132,13 +132,6 @@ grant usage on schema public to university_user;
 
 grant create on schema public to university_user;
 
-DROP SCHEMA public CASCADE;
-
-CREATE SCHEMA public;
-
-GRANT ALL ON SCHEMA public TO university_user;
-
-GRANT ALL ON SCHEMA public TO public;
 ```
 
 3) Create migration with alembic in virtual environment activate
