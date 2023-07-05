@@ -134,6 +134,15 @@ grant create on schema public to university_user;
 
 ```
 
+<span style="color:red">
+Attention
+</span>
+
+**Run the 'setup.py' file and skip steps 3, 4, 5, and 6, otherwise, run them in order**
+```sh
+python3 setup.py
+```
+
 3) Create migration with alembic in virtual environment activate
 
 ```py
